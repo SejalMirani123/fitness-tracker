@@ -1,5 +1,5 @@
 # fitness-tracker
-# Fitness Tracker API
+
 
 # Project Overview
 The Fitness Tracker API is a Spring Boot-based application designed to facilitate fitness management. 
