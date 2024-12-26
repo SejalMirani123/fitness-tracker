@@ -1,0 +1,48 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  security:
+    user:
+      name: user
+      password: password
+    csrf:
+      enabled: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/fitness_db?createDatabaseIfNotExist=true&useSSL=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+  profiles:
+    active: local
+  flyway:
+    baseline-on-migrate: true
+
+logging:
+  level:
+    org.springframework: INFO
+    org.hibernate.SQL: DEBUG
+    org.fitnesstracker.controller: DEBUG
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+
+
+
+
+app:
+  name: FitnessTrackerApp
+  version: 1.0.0
+
+error:
+  entity-not-found: "Entity with ID %s not found"
+
+
+
