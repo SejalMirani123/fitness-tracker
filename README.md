@@ -72,6 +72,8 @@ curl --location 'http://localhost:8080/api/workout' \
 '
 ![image](https://github.com/user-attachments/assets/ad866956-d3c0-4b62-93f5-b9611d0e553b)
 
+**SAved in DB**
+![image](https://github.com/user-attachments/assets/f8fcf025-7e3f-4a4c-8ebe-09f7519c827f)
 
 
 
