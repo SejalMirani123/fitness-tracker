@@ -60,7 +60,8 @@ The API uses Spring Security with the following configuration:
 # please contact for the queries: **[sejalmirani2019@gmail.com].**
 
 
-**Response-->**curl --location 'http://localhost:8080/api/workout' \
+****Response-->****
+curl --location 'http://localhost:8080/api/workout' \
 --header 'Content-Type: application/json' \
 --data '{
   "id": 1,
