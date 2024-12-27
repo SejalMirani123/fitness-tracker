@@ -77,7 +77,7 @@ curl --location 'http://localhost:8080/api/workout' \
 
 
 
-**Swagger sceenshot-->**
+    **Swagger sceenshot-->**
 **http://localhost:8080/api/swagger-ui/index.html**
 ![image](https://github.com/user-attachments/assets/c8eae333-30bf-424c-ab0d-163288c9ff65)
 
