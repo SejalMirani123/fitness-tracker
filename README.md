@@ -60,6 +60,19 @@ The API uses Spring Security with the following configuration:
 # please contact for the queries: **[sejalmirani2019@gmail.com].**
 
 
+Response-->curl --location 'http://localhost:8080/api/workout' \
+--header 'Content-Type: application/json' \
+--data '{
+  "id": 1,
+  "name": "Morning Yoga",
+  "description": "A calming yoga routine for beginners.",
+  "difficulty": "Easy"
+}
+'
+![image](https://github.com/user-attachments/assets/ad866956-d3c0-4b62-93f5-b9611d0e553b)
+
+
+
 
 Swagger sceenshot-->
 **http://localhost:8080/api/swagger-ui/index.html**
